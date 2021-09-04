@@ -1,0 +1,14 @@
+{
+  "name": "@chance/scripts",
+	"private": true,
+  "version": "1.0.0",
+  "description": "scriptz",
+  "author": "Chance Strickland <hi@chancedigital.io>",
+	"type": "module",
+  "scripts": {},
+  "license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.7.10",
+		"prettier": "^2.3.2"
+	}
+}
