@@ -10,7 +10,7 @@
 import path from "path";
 import fs from "fs";
 import os from "os";
-import { execSync, exec } from "child_process";
+import { exec } from "child_process";
 
 const homeDir = os.homedir();
 
@@ -35,11 +35,6 @@ function main() {
 		if (stderr) console.error(stderr);
 		if (error) throw error;
 		console.log(`Success!`);
-	});
-
-	execSync(buildSyncCommand(), {
-		stdio: "inherit",
-		env: process.env,
 	});
 }
 
